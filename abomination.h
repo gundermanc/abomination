@@ -75,7 +75,7 @@
 #define Begin         {
 #define End           }
 #define GenericPointer (void*)
-#define ToType(var, type)  ((type)var)
+#define ToType(var, type)  ((type)var)  /* this is how we do typecasts */
 #define Allocate(size, type)     ((type) malloc(size))
 #define FreeAlloc     free
 #define PrintFormat   printf

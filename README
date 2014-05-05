@@ -1,0 +1,15 @@
+Abomination Macros
+(C) 2014 Christian Gunderman
+
+PURPOSE:
+Shows exactly how bad you can mess up C when you start playing with macros
+excessively. You really should NEVER do this, but I did because I was curious
+just how closely you can model Visual Basic type languages in C.
+
+USAGE:
+Include abomination.h to define visual basic-like macros. example.c is a hello
+world application written entirely in the macros.
+
+NOTE:
+Not really a huge fan of VB and I don't recommend using these macros in any
+actual code. It is a curiousity at best. A thought experiment.
