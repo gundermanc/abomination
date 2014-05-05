@@ -27,5 +27,43 @@
 #ifndef ABOMINATION__H__
 #define ABOMINATION__H__
 
+#include "stdlib.h"
+
+#define Break         break
+#define Case          case
+#define Character     char
+#define DoubleFloat   double
+#define Constant      const
+#define Continue      continue
+#define Default       default
+#define Do            do
+#define Else          else
+#define Enumeration   enum
+#define External      extern
+#define SingleFloat   float
+#define For           for
+#define Goto          goto
+#define If            if
+#define Integer       int
+#define LongInteger   long
+#define Register      register
+#define Return        return
+#define ShortInteger  short
+#define Signed        signed
+#define SizeOf        sizeof
+#define Static        static
+#define Private       static
+#define Structure     struct
+#define Switch        switch
+#define NewType       typedef
+#define TypeUnion     union
+#define Unsigned      unsigned
+#define NoReturn      void
+#define Volatile      volatile
+#define While         while
+#define Nothing       NULL
+#define Boolean       Integer
+#define True          1
+#define False         0
 
 #endif  /* ABOMINATION__H__ */
