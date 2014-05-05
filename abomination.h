@@ -37,11 +37,13 @@
 #define Continue      continue
 #define Default       default
 #define Do            do
-#define Else          else
+#define This          )
+#define These         This
+#define Else          } else {
 #define Enumeration   enum
 #define External      extern
 #define SingleFloat   float
-#define For           for
+#define For           for(
 #define Goto          goto
 #define If            if(
 #define Then          )
@@ -55,20 +57,27 @@
 #define Static        static
 #define Private       static
 #define Structure     struct
-#define Switch        switch
+#define Switch        switch(
 #define NewType       typedef
 #define TypeUnion     union
 #define Unsigned      unsigned
 #define NoReturn      void
 #define Volatile      volatile
-#define While         while
+#define While         while(
 #define Nothing       NULL
 #define Boolean       Integer
-#define True          1
-#define False         0
+#define True          (int)1
+#define False         (int)0
 #define Function      /* defined as nothing, just there for looks */
 #define EntryPoint    main
 #define ByRef         *
+#define Array         ByRef
 #define Begin         {
 #define End           }
+#define GenericPointer (void*)
+#define ToType(var, type)  ((type)var)
+#define Allocate(size, type)     ((type) malloc(size))
+#define FreeAlloc     free
+#define PrintFormat   printf
+#define Goodbye       exit(0)
 #endif  /* ABOMINATION__H__ */
