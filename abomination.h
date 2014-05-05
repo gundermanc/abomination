@@ -43,7 +43,8 @@
 #define SingleFloat   float
 #define For           for
 #define Goto          goto
-#define If            if
+#define If            if(
+#define Then          )
 #define Integer       int
 #define LongInteger   long
 #define Register      register
@@ -65,5 +66,9 @@
 #define Boolean       Integer
 #define True          1
 #define False         0
-
+#define Function      /* defined as nothing, just there for looks */
+#define EntryPoint    main
+#define ByRef         *
+#define Begin         {
+#define End           }
 #endif  /* ABOMINATION__H__ */
