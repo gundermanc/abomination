@@ -1,0 +1,6 @@
+c-oop : A failed C macro experiment for bringing object oriented 
+programming to C.
+(C) 2015 Christian Gunderman
+
+You should NEVER really do this. I was curious how far I could push the
+GCC macro system though.
